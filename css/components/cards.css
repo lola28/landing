@@ -1,0 +1,100 @@
+.card-category {
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a9eec2;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    font-family: 'Pacifico', cursive;
+}
+
+.card-product{
+  background-size: cover;
+    background-position: center;
+    height: 120px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ff8364;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    background-color: #fff5eb;
+}
+
+.card-product h2{
+  font-family: 'Pacifico', cursive;
+}
+.card-product p{
+  color: #ff8364;
+    font-size: 15px;
+    font-weight: normal;
+    color:#a9eec2;
+}
+.card-product img {
+    height: 100%;
+    width: 120px;
+    object-fit: cover;
+}
+
+.card-trip h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    color:#ff8364;
+    font-family: 'Pacifico', cursive;
+}
+.card-trip p {
+    font-size: 12px;
+    opacity: .7;
+    margin: 0;
+    color:#a9eec2;
+}
+.card-trip .trip-infos {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+}
+.card-trip {
+    overflow: hidden;
+    background: white;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #fff5eb;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.card-trip > img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.trip-infos .card-trip-user {
+    position: absolute;
+    right: 16px;
+    top: -20px;
+    width: 40px;
+}
+
+.card-trip-user {
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    border: white 1px solid;
+}

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto|Source+Sans+Pro');
+
+.btn-babes{
+  font-family: 'Pacifico', cursive;
+  background-color: #fdbfb3;
+  color: white;
+  margin-top: 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: 200ms;
+  margin: 300px;
+}
+
+.btn-babes:hover{
+  background-color: #ffd98e;
+  transition: 200ms;
+}

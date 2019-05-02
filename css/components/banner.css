@@ -1,0 +1,20 @@
+.banner {
+  background-image: url("https://res.cloudinary.com/wagon/image/upload/c_fill,g_face,h_200,w_200/lx8eb2qaqrfcgc6ynqhf.jpg");
+  color: white;
+  padding: 100px 0;
+  margin: 0 auto;
+}
+
+.banner h1 {
+  font-family: 'Pacifico', cursive;
+  color: #a9eec2;
+  margin-bottom: 0;
+  margin: 30px;
+}
+
+.banner p {
+  margin-bottom: 0;
+  margin: 30px;
+  color: #a9eec2;
+  font-weight: bolder;
+}
